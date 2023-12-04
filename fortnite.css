@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Noto+Sans+Kawi:wght@500&family=Noto+Sans:wght@300&family=Rubik&display=swap");
+
+#first_1 {
+  color: rgb(163, 113, 4);
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  border: 2px;
+}
+.unpagnan {
+  color: red;
+}
+
+.information {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.reseau a img {
+  width: 30px;
+}
+
+
+body {
+  background-color: rgb(30, 30, 31);
+}
+.hjkl {
+  width: 50%;
+}
+a {
+  text-decoration: none;
+}
+.uttons {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  background-color: rgb(146, 148, 148);
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+
+header {
+  display: inline;
+}
+.image_5{
+  width: 25%;
+  align-items: center;
+  flex-direction: row-reverse;
+}
